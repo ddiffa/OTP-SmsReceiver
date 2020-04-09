@@ -42,7 +42,7 @@ enum class BigBoxAPI {
     }
 
     internal suspend fun sendOtp(request: RequestOtp): ResponseOtp {
-        return api.sendOtp("", request)
+        return api.sendOtp("API_KEY", request)
     }
 
     interface Api {
