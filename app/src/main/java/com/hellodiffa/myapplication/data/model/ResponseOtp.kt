@@ -1,4 +1,4 @@
-package com.hellodiffa.myapplication.model
+package com.hellodiffa.myapplication.data.model
 
 data class ResponseOtp(
 	val msgId: String? = null,
